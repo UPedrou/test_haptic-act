@@ -147,7 +147,48 @@
 <!-- Content of the paper -->
 
 
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Overview</h2>
+        <div class="item">
+          <div class="image-container">
+            <img src="static/images/Overview_3.png" alt="image of model" style="display: block; margin: 0 auto; width: 70%; height: auto;" />
+          </div>
+          <h2 class="subtitle">
+            Haptic-ACT is a multimodal learning framework for robotic manipulation that enables delicate, contact-rich tasks by combining vision, robot proprioception, and haptic feedback.
+            Our method extends Action Chunking with Transformers (ACT) to incorporate force sensing, allowing the robot not only to plan ahead but also to detect and recover from grasp failures autonomously.
+            We apply Haptic-ACT to the task of pseudo-oocyte transfer, where the robot must grasp and place fragile biological objects safely.
+            Unlike vision-only methods, our system can detect failed grasps in real time and retry, improving robustness significantly.
+            Experiments in both trained and unseen environments show that Haptic-ACT improves manipulation success rates.
+          </h2>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
 
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4">Model Architecture</h2>
+        <div class="item">
+          <div class="image-container">
+            <img src="static/images/ACT_Force_crop.png" alt="image of model" style="display: block; margin: 0 auto; width: 70%; height: auto;" />
+          </div>
+          <h2 class="subtitle">
+            The Haptic-ACT architecture extends the original Action Chunking with Transformers (ACT) framework by integrating multimodal sensory inputs: Vision (camera images), Robot proprioception (joint angles, gripper position) and Haptic feedback (force sensor readings).
+          </h2>
+          <h2 class="subtitle">
+          These three inputs are encoded into feature vectors and fused into a single multimodal representation. This fused input is passed to a Transformer-based model, which predicts a chunk of future actions.
+          </h2>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
